@@ -3,11 +3,12 @@ simple slack webhook integration for bitbucket server
 
 ## Installation
 create a slack webhook address within the slack application and add it in place of the address in resources/config.edu 
+```
 {:slack-webhook "https://hooks.slack.com/services/my/webhook/here"} 
-
-recommend running as a service on heroku.
+```
+recommend running as a heroku app.
 ### Heroku app
-download Heroku CLI
+download heroku cli
 ```bash
 sudo add-apt-repository "deb https://cli-assets.heroku.com/branches/stable/apt ./"
 curl -L https://cli-assets.heroku.com/apt/release.key | sudo apt-key add -

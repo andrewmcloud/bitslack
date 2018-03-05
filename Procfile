@@ -1,0 +1,1 @@
+web: java $JVM_OPTS -cp target/uberjar/bitslack-standalone.jar clojure.main -m bitslack.core
